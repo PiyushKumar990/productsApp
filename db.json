@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": "TVOnida4243true",
+      "details": {
+        "nameP": {
+          "caption": "Name",
+          "type": "text",
+          "mandatory": "yes",
+          "defaultValue": "TV",
+          "validationMessage": "Name is mandatory"
+        },
+        "description": {
+          "caption": "Description",
+          "type": "text",
+          "mandatory": "yes",
+          "defaultValue": "LG",
+          "validationMessage": "Description is mandatory"
+        },
+        "height": {
+          "caption": "Height",
+          "type": "int",
+          "mandatory": "no",
+          "defaultValue": "42",
+          "validationMessage": ""
+        },
+        "width": {
+          "caption": "Width",
+          "type": "int",
+          "mandatory": "no",
+          "defaultValue": "43",
+          "validationMessage": ""
+        },
+        "isSmart": {
+          "caption": "isSmart",
+          "type": "boolean",
+          "mandatory": "no",
+          "defaultValue": true,
+          "validationMessage": ""
+        }
+      }
+    },
+    {
+      "id": "FridgeLG4243true",
+      "details": {
+        "nameP": {
+          "caption": "Name",
+          "type": "text",
+          "mandatory": "yes",
+          "defaultValue": "Fridge",
+          "validationMessage": "Name is mandatory"
+        },
+        "description": {
+          "caption": "Description",
+          "type": "text",
+          "mandatory": "yes",
+          "defaultValue": "LG",
+          "validationMessage": "Description is mandatory"
+        },
+        "height": {
+          "caption": "Height",
+          "type": "int",
+          "mandatory": "no",
+          "defaultValue": "42",
+          "validationMessage": ""
+        },
+        "width": {
+          "caption": "Width",
+          "type": "int",
+          "mandatory": "no",
+          "defaultValue": "43",
+          "validationMessage": ""
+        },
+        "isSmart": {
+          "caption": "isSmart",
+          "type": "boolean",
+          "mandatory": "no",
+          "defaultValue": true,
+          "validationMessage": ""
+        }
+      }
+    }
+  ]
+}

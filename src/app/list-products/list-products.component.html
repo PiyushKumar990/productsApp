@@ -1,0 +1,19 @@
+<div class="col-sm-12">
+ <table class="table table-striped" style="border:2px"> 
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Height</th>
+    <th>Width</th>
+    <th>Is Smart</th>
+  </tr>
+    <tr *ngFor = " let p of products">
+      <td>{{p.details.nameP.defaultValue}}</td>
+      <td>{{p.details.description.defaultValue}}</td>
+      <td>{{p.details.height.defaultValue}}</td>
+      <td>{{p.details.width.defaultValue}}</td>
+      <td>{{p.details.isSmart.defaultValue}}</td>
+    </tr>
+ </table>
+
+</div>
